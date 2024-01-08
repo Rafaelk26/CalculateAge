@@ -1,0 +1,66 @@
+:root{
+  --color-black: #000;
+  --color-white: #fff;
+  ---border-radius-6: 6px;
+}
+
+.container{
+  width: 100%;
+  max-height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  color: var(--color-white);
+}
+
+.section-info{
+  margin-top: 20px;
+}
+
+.form{
+  background-color: var(--color-white);
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border-radius: var(---border-radius-6);
+}
+
+.label-name, .label-nasc{
+  margin-top: 10px;
+}
+
+.input-name, .input-nasc{
+  border: .2px solid var(--color-black);
+  background-color: var(--color-black);
+  color: #ffffffdf;
+  padding: 8px 2px;
+  border-radius: var(---border-radius-6);
+  margin-top: 2px;
+}
+
+.input-name::placeholder, .input-nasc::placeholder{
+  color: #ffffff88;
+}
+
+.button-age{
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 18px;
+  color: var(--color-black);
+  background-color: aqua;
+  border: 0;
+  cursor: pointer;
+  border-radius: var(---border-radius-6);
+}
+
+.frase-final{
+  text-align: center;
+  margin-top: 20px;
+  color: var(--color-white);
+  font-size: 22px;
+}
